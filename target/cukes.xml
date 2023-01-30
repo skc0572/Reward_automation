@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="39.149">
+    <testcase classname="User logins to Campaign Links Front End" name="Campaigns Links Login" time="15.601">
+        <system-out><![CDATA[Given User opens login page of the Campaigns link...........................passed
+When user enters "webmaster@shakedeal.com" and "Sh@kede@l@123"..............passed
+And Clicks On SignIn........................................................passed
+Then user should be able to login to Campaign links.........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Feature to add Points to User Links" name="Add Points To User links" time="16.216">
+        <system-out><![CDATA[Given User opens login page of the Campaigns link...........................passed
+When user enters "webmaster@shakedeal.com" and "Sh@kede@l@123"..............passed
+And Clicks On SignIn........................................................passed
+Then user should be able to login to Campaign links.........................passed
+And user clicks on Automation Campaign......................................passed
+Then Click on Reward Automation link........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="User logins to Reward Links Front End" name="Reward Links Login" time="3.349">
+        <system-out><![CDATA[Given User opens login page of the reward link..............................passed
+When user enters otp "1000".................................................passed
+And Clicks On Continue......................................................passed
+Then user should be able to login to rewad links............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="User wants to view redeemed vouchers" name="Verify My Vouchers" time="3.697">
+        <system-out><![CDATA[Given User opens login page of the reward link..............................passed
+When user enters otp "1000".................................................passed
+And Clicks On Continue......................................................passed
+Then user should be able to login to rewad links............................passed
+And Clicks on My Vouchers...................................................passed
+Then User can view all redeemed vouchers....................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
